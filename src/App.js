@@ -15,6 +15,7 @@ function App() {
       <h1>Words List</h1>
       <WordForm addWord={addWordHandler}/>
       <WordsList words={words} />
+      <button>Check</button>
     </div>
   );
 }

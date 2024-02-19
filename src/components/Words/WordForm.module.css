@@ -1,0 +1,30 @@
+.WordForm input,
+.WordForm button {
+  font-size: 1.25em;
+  padding: 0.25em 0.75em;
+  border: none;
+  margin: 0 0.5em;
+  border-radius: 0.25em;
+}
+
+.WordForm input::placeholder {
+  color: rgb(255, 0, 0);
+}
+
+.WordForm input:focus {
+  outline-color: red;
+}
+
+.WordForm button {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.WordForm button:hover {
+  background: gray;
+  color: white;
+}
+
+.WordForm button:active {
+  transform: scale(0.5);
+}

@@ -1,9 +1,11 @@
+import styles from './Word.module.css';
 
-function Word({word}) {
-
+function Word({ word }) {
   return (
-    <div>{word}</div>
-  )
+    <div className={styles.word}>
+      <div className={styles.wordText}>{word}</div>
+    </div>
+  );
 }
 
-export default Word
+export default Word;
