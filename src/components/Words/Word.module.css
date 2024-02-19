@@ -1,5 +1,7 @@
 .word {
-  display: inline-block;
-  background: whitesmoke;
+  font-size: 1.25em;
+  background: rgb(174, 209, 240);
   color: black;
+  margin: 1em 0.35em;
+  border-radius: 0.15em;
 }
