@@ -1,16 +1,20 @@
 .word {
-  font-size: 1.25em;
-  background: rgb(174, 209, 240);
+  font-size: 1.5em;
+  background: #6a96bd;
   color: black;
   margin: 1em 0.35em;
   border-radius: 0.15em;
 }
 
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
 .likeDislike {
-  text-align: center;
-  color: white;
-  margin: 0 15%;
- padding: 3%;
- border-radius: 25%;
-  
+  padding: 3%;
+  font-size: 1.25em;
+  color: #ffffff;
+  border-radius: 25%;
+  cursor: pointer;
 }

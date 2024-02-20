@@ -8,11 +8,11 @@
 }
 
 .WordForm input::placeholder {
-  color: rgb(255, 0, 0);
+  color: #ff0000;
 }
 
 .WordForm input:focus {
-  outline-color: red;
+  outline-color: #ff0000;
 }
 
 .WordForm button {
@@ -21,8 +21,8 @@
 }
 
 .WordForm button:hover {
-  background: gray;
-  color: white;
+  background: #808080;
+  color: #ffffff;
 }
 
 .WordForm button:active {
