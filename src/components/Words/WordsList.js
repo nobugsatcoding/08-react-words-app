@@ -5,11 +5,13 @@ function WordsList({ words }) {
   return (
     <div>
       <div>
-        {(!words.length && <h2> Word list is empty</h2>) || <h2>Word List has {words.length} words</h2>}
+        {(!words.length && <h2> Word list is empty</h2>) || (
+          <h2>Word List has {words.length} words</h2>
+        )}
       </div>
       <div className={styles.wordList}>
-        {words.map((word, index) => (
-          <Word key={index} word={word} />
+        {words.map((word) => (
+          <Word key={word.id} word={word} />
         ))}
       </div>
     </div>
