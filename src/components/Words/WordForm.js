@@ -5,8 +5,12 @@ function WordForm({ addWord }) {
   const [text, setText] = useState('');
   const onSubmitHandler = (event) => {
     event.preventDefault();
-    addWord(text);
-    setText('');
+    if (text.trim() === '') {
+      alert('input cannot be empty');
+    } else {
+      addWord(text);
+      setText('');
+    }
   };
 
   return (

@@ -3,15 +3,15 @@ import styles from './Word.module.css';
 import { GrLike, GrDislike } from 'react-icons/gr';
 
 function Word({ word }) {
-  const [likeText, setLikeText] = useState('I known');
-  const [dislikeText, setDislikeText] = useState('Do not remember');
+  const [likeText, setLikeText] = useState('YES!');
+  const [dislikeText, setDislikeText] = useState('NO!');
 
   const likeClickHandle = () => {
-    setLikeText(likeText === 'I known' ? '' : 'I known');
+    setLikeText(likeText === 'YES!' ? '' : 'YES!');
   };
 
   const disLikeClickHandle = () => {
-    setDislikeText(dislikeText === 'Do not remember' ? '' : 'Do not remember');
+    setDislikeText(dislikeText === 'NO!' ? '' : 'NO!');
   };
 
   return (
