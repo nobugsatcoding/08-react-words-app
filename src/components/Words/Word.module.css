@@ -1,21 +1,36 @@
 .word {
   font-size: 1.5em;
   background: #6a96bd;
-  color: black;
+  color: #cacaca;
   margin: 1em 0.35em;
   border-radius: 0.15em;
+ 
+}
+
+.wordText{
+  text-transform: uppercase;
+  padding: 5% 0;
 }
 
 .iconContainer {
   display: flex;
   justify-content: space-around;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
+.iconContainer:hover {
+  letter-spacing: 5px;
+}
 .likeDislike {
-  padding: 3%;
+  padding: 25%;
   font-size: 1.25em;
   color: #ffffff;
   border-radius: 25%;
   cursor: pointer;
+  border: 1px solid #000;
+}
+
+.wordTextLike {
+
 }

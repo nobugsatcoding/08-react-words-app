@@ -16,29 +16,27 @@ function Word({ word }) {
 
   return (
     <div className={styles.word}>
-      <div className={styles.wordText}>
-        {word.text}
-        <div className={styles.iconContainer}>
-          <div>
-            {likeText ? (
-              <span onClick={likeClickHandle}>{likeText}</span>
-            ) : (
-              <GrLike
-                className={styles.likeDislike}
-                style={{ backgroundColor: 'green' }}
-              />
-            )}
-          </div>
-          <div>
-            {dislikeText ? (
-              <span onClick={disLikeClickHandle}>{dislikeText}</span>
-            ) : (
-              <GrDislike
-                style={{ backgroundColor: 'red' }}
-                className={styles.likeDislike}
-              />
-            )}
-          </div>
+      <div className={styles.wordText}>{word.text}</div>
+      <div className={styles.iconContainer}>
+        <div>
+          {likeText ? (
+            <span onClick={likeClickHandle}>{likeText}</span>
+          ) : (
+            <GrLike
+              className={styles.likeDislike}
+              style={{ backgroundColor: 'green' }}
+            />
+          )}
+        </div>
+        <div>
+          {dislikeText ? (
+            <span onClick={disLikeClickHandle}>{dislikeText}</span>
+          ) : (
+            <GrDislike
+              style={{ backgroundColor: 'red' }}
+              className={styles.likeDislike}
+            />
+          )}
         </div>
       </div>
     </div>
