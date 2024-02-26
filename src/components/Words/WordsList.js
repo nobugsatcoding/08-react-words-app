@@ -4,7 +4,7 @@ import styles from './WordsList.module.css';
 function WordsList({ words }) {
   return (
     <div>
-      <div>
+      <div className={styles.wordCountClear}>
         {(!words.length && <h2> Word list is empty</h2>) || (
           <h2>Word List has {words.length} words</h2>
         )}

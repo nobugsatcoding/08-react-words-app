@@ -1,0 +1,18 @@
+.clearButton {
+    margin: 0.75em;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 1.25em;
+    padding: 0.25em 4.5em;
+    border-radius: 0.5em;
+    border: none;
+  }
+  
+  .clearButton:hover {
+    background: #808080;
+    color: #ffffff;
+  }
+  
+  .clearButton:active {
+    transform: scale(0.5);
+  }
