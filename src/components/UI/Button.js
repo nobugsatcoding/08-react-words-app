@@ -1,7 +1,4 @@
-import { useState } from 'react';
 import styles from './Button.module.css'
-
-
 
 function Button({words, setWords}) {
     const clickHandle = () => {

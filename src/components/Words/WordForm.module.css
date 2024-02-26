@@ -7,6 +7,11 @@
   border-radius: 0.25em;
 }
 
+.WordForm {
+  position: sticky;
+  top: 5%;
+}
+
 .WordForm input::placeholder {
   color: #ff0000;
 }
